@@ -16,8 +16,8 @@ First, you must have installed all dependencies listed in 'requirements.txt'. Th
 ```py
 cd 'path/to/this/directory'
 python3.8 -m venv .venv
-. ./venv/bin/activate
-pip install -r requirements.txt
+. ./.venv/bin/activate
+pip install -r requirements.txt --no-deps
 ```
 Remember that you need to `cd` to this directory and rerun `. ./venv/bin/activate` whenever you've closed down your terminal and want to continue using this project.
 
